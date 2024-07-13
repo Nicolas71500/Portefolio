@@ -159,16 +159,29 @@ img{
 @media (min-width: 600px) {
     .skill-content, .Projets-content {
         grid-template-columns: 1fr 1fr;
+        
+        
     }
 
     .skill, .project {
         width: 150px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 300px) {
+    main{
+        flex-direction: column;
     }
 }
 
 @media (min-width: 900px) {
     .skill-content, .Projets-content {
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
 
     .skill, .project {
